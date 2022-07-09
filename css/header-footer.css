@@ -1,0 +1,106 @@
+/*HEAD*/
+#top {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 239, 233);
+  border-bottom: 4px solid lightblue;
+}
+
+.editButtonTop {
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  border: none;
+  background-color: #F1EFE9;
+  border-radius: 20px;
+  padding: 7px 27px 7px 27px;
+}
+
+#logo {
+width: 70px;
+height: 50px;
+padding-right: 100px;
+padding-left: 20px;
+cursor: pointer;
+}
+
+#searchIcon {
+  width: 30px;
+  margin-left: 45px;
+}
+
+.dropdown {
+  display: inline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ol {
+  color: black;
+  padding: 0px 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  background-color: #F1EFE9;
+}
+
+/*TAIL*/
+#bottom {
+  margin-top: 90px;
+  border-top: 4px solid lightblue;
+}
+
+#moreContent {
+  font-family: arial;
+  margin-left: 18%;
+  margin-right: 18%;
+  white-space: pre-wrap;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

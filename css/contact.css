@@ -1,0 +1,51 @@
+#contact {
+  margin-top: 70px;
+  text-align: center;
+}
+
+#nameSchool {
+  font-weight: 600;
+  font-family: arial;
+  font-size: 20px;
+}
+
+#addressSchool:hover, #FaceBook:hover{
+  color:red;
+}
+
+#Founder {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: arial;
+}
+
+#author {
+  display: flex;
+  justify-content: center;
+}
+
+.KDA {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nameAuthor {
+  font-size: 24px;
+  text-align: center;
+}
+
+.logoSchool {
+  width: 261px;
+  padding-bottom: 18px;
+}
+
+.IconAvatar {
+  width: 80px;
+  height: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+

@@ -1,0 +1,65 @@
+#imgMain {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 69%;
+}
+
+.Book {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.BookImg {
+  cursor: pointer;
+}
+
+.BookImg {
+  margin-left: 18%;
+  margin-right: 4%;
+  width: 18%;
+  height: 174px;
+  border-radius: 5px;
+}
+
+.BookName {
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.BookContent {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.BookContainer {
+  width: 40%;
+}
+
+.BookDiv {
+  margin-top: 60px;
+  display: flex;
+}
+
+.buttonIntro {
+  background-color: lightgreen;
+  margin-left: 15%; 
+  margin-top: 70px; 
+  margin-bottom: 50px; 
+  border: none;
+  border-radius: 5px;
+  padding: 7px 27px 7px 27px; 
+}
+
+.BookBtn, .BookBtn:hover {
+  background-color: lightgreen;
+  margin-left: 15%;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 27px 7px 27px;
+}

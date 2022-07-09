@@ -1,0 +1,76 @@
+.BookDetailData {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-family: Arial;
+  font-size: 18px;
+  white-space: pre-line;
+  margin: 0 18% 0 18%;
+}
+
+.BookDetailButton {
+  float: right;
+  margin-right: 10%;
+  margin-top: -101px;
+  background-color: #009679;
+  color: white;
+  border-radius: 4px;
+  padding: 7px 27px;
+  border: bold;
+  font-family: arial;
+  font-weight: 900;
+  border-color: #009679;
+}
+
+.BookDetailButton:hover {
+  background-color: #009679;
+  color: white;
+  font-weight: lighter;
+  border-radius: 4px;
+  font-weight: 900;
+  border: bold;
+  border-color: #009679;
+}
+
+.BookDetailName {
+  text-align: center;
+  font-family: arial;
+  font-size: 26px;
+  margin-bottom: 70px;
+}
+
+.BookDetailImg {
+  margin-top: 15px;
+  margin-bottom: 70px;
+  display: block;
+  margin-left: 40%;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+/*Thông Báo*/
+.alert {
+  visibility: hidden;
+  margin-left: 75%;
+  width: 20%;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #D6EEC8;
+}
+
+#dataAlert {
+  font-family: arial;
+  color: #027540;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #027540;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}

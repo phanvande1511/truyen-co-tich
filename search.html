@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tìm Kiếm</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/book-search.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="icon" type="text/css" href="img/favion.jpg">
+</head>
+<body>
+	<div id="top">
+		<a href="index.html"><img id="logo" src="img/logo.png"/></a>
+
+		<div class="dropdown">
+			<button onclick="gotoCoTichVietNam()" class="editButtonTop">Cổ Tích Việt Nam</button>
+			<div class="dropdown-content">
+	    		<ol>
+	    			<button onclick="gotoCoTichVeLoaiVat()" class="editButtonTop">Cổ Tích Về Loài Vật</button>
+	    		</ol>
+	    		<ol>
+	    			<button onclick="gotoCoTichThanKy()" class="editButtonTop">Cổ Tích Thần Kỳ</button>
+	    		</ol>
+	    		<ol>
+	    			<button onclick="gotoCoTichTheTuc()" class="editButtonTop">Cổ Tích Thế Tục</button>
+	    		</ol>
+			</div>
+		</div>
+	
+		<div class = "dropdown">
+			<button onclick="gotoCoTichTheGioi()" class="editButtonTop">Cổ Tích Thế Giới</button>
+			<div class = "dropdown-content">
+				<ol>
+					<button onclick="gotoTruyenCoGrimm()" class="editButtonTop">Truyện Cổ Grimm</button>
+				</ol>
+				<ol>
+					<button onclick="gotoTruyenCoAndersen()" class="editButtonTop">Truyện Cổ Andersen</button>
+				</ol>
+				<ol>
+					<button onclick="gotoThanThoaiHyLap()" class="editButtonTop">Thần Thoại Hy Lạp</button>
+				</ol>
+			</div>
+		</div>
+	
+		<button onclick="gotoTruyenCuoi()" class="editButtonTop">Truyện Cười</button>
+		<button onclick="gotoTruyenNguNgon()" class="editButtonTop">Truyện Ngụ Ngôn</button>
+		<button onclick="gotoTruyenDanGian()" class="editButtonTop">Truyện Dân Gian</button>
+		<button onclick="window.location.href='library.html'" class="editButtonTop">Thư Viện</button>
+		<button onclick="window.location.href='contact.html'" class="editButtonTop">Liên Hệ</button>
+		<a href="search.html">
+			<img id="searchIcon" src="img/search.png">
+		</a>
+	</div>
+
+	<div id="searchDiv">
+		<input id="searchInput" type="text" placeholder="Tìm kiếm">
+		<button id="searchBtn" onclick="search()">
+			<i class="fa fa-search"></i>
+		</button>
+	</div>
+
+	<img id="imgNotFound" src="img/not-found.png">
+	<img id="imgSearch" src="img/search-icon.png">
+
+	<div id="searchLayout">
+		<div id="bookResults"></div>
+	</div>
+
+	<div id="bottom">
+		<p id="moreContent">
+			Tổng hợp các truyện cổ tích hay nhất trong kho tàng truyện cổ tích dân gian Việt Nam và truyện cổ tích Thế Giới, truyện dân gian, truyện ngụ ngôn, truyện cười, những câu truyện quà tặng cuộc sống ý nghĩa...Trang đọc truyện cổ tích Việt Nam hay nhất, gồm những câu chuyện cổ tích chọn lọc dành cho thiếu nhi và mọi lứa tuổi. Kể chuyện cổ tích cho bé, giúp khơi gợi trí tưởng tượng phong phú, cũng như rút ra nhiều bài học bổ ích ...
+		</p>
+	</div>
+	
+	<script src = "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src = "js/index.js"></script>
+	<script type="text/javascript" src = "js/book-search.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

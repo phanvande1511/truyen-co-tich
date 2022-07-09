@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Truyện Cổ Tích</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="icon" type="text/css" href="img/favion.jpg">
+</head>
+<body>
+	<div id="top">
+		<a onclick="window.location.href='index.html'"><img id="logo" src="img/logo.png"></a>
+		<div class="dropdown">
+			<button onclick="gotoCoTichVietNam()" class="editButtonTop">Cổ Tích Việt Nam</button>
+			<div class="dropdown-content">
+	    		<ol>
+	    			<button onclick="gotoCoTichVeLoaiVat()" class="editButtonTop">Cổ Tích Về Loài Vật</button>
+	    		</ol>
+	    		<ol>
+	    			<button onclick="gotoCoTichThanKy()" class="editButtonTop">Cổ Tích Thần Kỳ</button>
+	    		</ol>
+	    		<ol>
+	    			<button onclick="gotoCoTichTheTuc()" class="editButtonTop">Cổ Tích Thế Tục</button>
+	    		</ol>
+			</div>
+		</div>
+	
+		<div class = "dropdown">
+			<button onclick="gotoCoTichTheGioi()" class="editButtonTop">Cổ Tích Thế Giới</button>
+			<div class = "dropdown-content">
+				<ol>
+					<button onclick="gotoTruyenCoGrimm()" class="editButtonTop">Truyện Cổ Grimm</button>
+				</ol>
+				<ol>
+					<button onclick="gotoTruyenCoAndersen()" class="editButtonTop">Truyện Cổ Andersen</button>
+				</ol>
+				<ol>
+					<button onclick="gotoThanThoaiHyLap()" class="editButtonTop">Thần Thoại Hy Lạp</button>
+				</ol>
+			</div>
+		</div>
+	
+		<button onclick="gotoTruyenCuoi()" class="editButtonTop">Truyện Cười</button>
+		<button onclick="gotoTruyenNguNgon()" class="editButtonTop">Truyện Ngụ Ngôn</button>
+		<button onclick="gotoTruyenDanGian()" class="editButtonTop">Truyện Dân Gian</button>
+		<button onclick="window.location.href='library.html'" class="editButtonTop">Thư Viện</button>
+		<button onclick="window.location.href='contact.html'" class="editButtonTop">Liên Hệ</button>
+		<a href="search.html">
+			<img id="searchIcon" src="img/search.png">
+		</a>
+	</div>	
+
+	<div id = "booksList"></div>
+	<div id = "pagesList"></div>
+
+	<div>
+		<div id="contact">
+			<img class="logoSchool" src="img/logoSchool.jpeg">
+			<p id="nameSchool">Học Viện VTC Academy Hồ Chí Minh</p>
+
+			<a href="https://www.google.com/maps/place/The+Emporium/@10.7647319,106.6556001,15z/data=!4m5!3m4!1s0x0:0x4b2ac9e9bd4e53ba!8m2!3d10.7647367!4d106.6556075" target="_blank">
+				<p id="addressSchool">
+					Tầng thứ 2 - Toà nhà Emporium Tower, 184 Lê Đại Hành, Đường 15, Quận 11, Thành Phố Hồ Chí Minh
+				</p>
+			</a>
+
+			<p>Hotline: 0818 779 299 - (028) 62 55 62 62</p>
+			<p>Email: infor@vtc.edu.vn</p>
+			<span>FaceBook:</span>
+			<a id="FaceBook" href="https://www.facebook.com/VtcAcademyofficial" target="_blank">
+				<span>VTC Academy TP.HCM</span>
+			</a>
+
+			<br><br><br><br>
+
+			<p id="Founder">Founder</p>
+		</div>
+
+		<div id="author">
+			<div class="KDA">
+				<img src="img/kiet.png" class="IconAvatar">
+				<p class="nameAuthor">Dương Văn Kiệt</p>
+				<li>HoChiMinh, VietNamese</li>
+				<li>Phone: 038 673 41 77</li>
+				<li>Email: dkiet742@gmail.com</li>
+			</div>
+
+			<div class="KDA">
+				<img src="img/de.png" class="IconAvatar">
+				<p class="nameAuthor">Phan Văn Đế</p>
+				<li>HoChiMinh, VietNamese</li>
+				<li>Phone: 097 461 92 80</li>
+				<li>Email: phanvande8726.vn.com</li>
+			</div>
+
+			<div class="KDA">
+				<img src="img/an.png" class="IconAvatar">
+				<p class="nameAuthor">Lê Gia An</p>
+				<li>HoChiMinh, VietNamese</li>
+				<li>Phone: 096 410 95 79</li>
+				<li>Email: andoycle@gmail.com</li>
+			</div>
+		</div>
+	</div>
+
+	<div id="bottom">
+		<p id="moreContent">
+			Tổng hợp các truyện cổ tích hay nhất trong kho tàng truyện cổ tích dân gian Việt Nam và truyện cổ tích Thế Giới, truyện dân gian, truyện ngụ ngôn, truyện cười, những câu truyện quà tặng cuộc sống ý nghĩa...Trang đọc truyện cổ tích Việt Nam hay nhất, gồm những câu chuyện cổ tích chọn lọc dành cho thiếu nhi và mọi lứa tuổi. Kể chuyện cổ tích cho bé, giúp khơi gợi trí tưởng tượng phong phú, cũng như rút ra nhiều bài học bổ ích ...
+		</p>
+	</div>
+
+	<script src = "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src = "js/index.js"></script>
+	<script type="text/javascript" src = "js/book-detail.js"></script>
+</body>
+</html>
