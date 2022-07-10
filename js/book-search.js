@@ -17,14 +17,13 @@ async function search() {
 	const bookSearch = response.data.data.items;
 
 	if (bookSearch.length == 0) {
-		document.getElementById('imgNotFound').style.display = "inherit";
-		document.getElementById('imgSearch').style.display = "none";
+		document.getElementById('divImgNotFound').style.display = "inherit";
+		document.getElementById('divImgSearch').style.display = "none";
 	} else {
-		document.getElementById('imgNotFound').style.display = "none";
-		document.getElementById('imgSearch').style.display = "none";
+		document.getElementById('divImgNotFound').style.display = "none";
+		document.getElementById('divImgSearch').style.display = "none";
 		
 		for (var i = 0; i < bookSearch.length; i++) {
-			document.getElementById('imgSearch').style.display = "none";
 			const searchDiv = document.createElement("div");
 			searchDiv.className = "SearchDiv";
 			const searchContainer = document.createElement("div");
