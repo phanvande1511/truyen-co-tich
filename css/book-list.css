@@ -34,7 +34,7 @@
 }
 
 .pagination {
-  margin: 50px 0px 50px 0px;
+  margin-top: 50px;
   display: flex;
   float: right;
   margin-right: 20%;
